@@ -1,0 +1,82 @@
+/* style.css */
+
+/* Basic CSS for the navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: right; /* Align navbar items to the right */
+}
+
+.navbar li {
+    display: inline-block; /* Display navbar items horizontally */
+    margin-right: 100px; /* Increase the right margin for spacing */
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(185, 205, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #000000;
+}
+
+/* CSS for the logo image */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.header .logo {
+    height: 200px; /* Adjust the height as needed */
+    width: auto; /* Adjust the width automatically based on the aspect ratio */
+}
+
+/* CSS for the main content */
+.main-content {
+    background-color: #000000; /* Customize the background color */
+    padding: 20px; /* Adjust the padding as needed */
+    margin: 20px; /* Adjust the margin as needed */
+    text-align: center; /* Center the content */
+    color: rgb(185, 205, 240);
+    font-family: "Archivo Black", sans-serif; /* Set the font family */
+}
+
+#riseabove {
+    max-width: 50%; /* Adjust the maximum width as needed */
+    height: auto; /* Let the height adjust automatically based on the aspect ratio */
+}
+
+body {
+    background-color: #000000; /* Set the background color of the entire page to black */
+    margin: 0; /* Remove any default margin */
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(185, 205, 240);
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-around; /* Align items horizontally with equal spacing */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    font-family: "Archivo Black", sans-serif; /* Set the font family */
+}
+
+footer a {
+    color: rgb(185, 205, 240); /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
