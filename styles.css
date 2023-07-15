@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap');
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -129,7 +128,17 @@ input[type="submit"]:hover {
   background-color: #145952;
 }
 
-/* Donate page specific styling */
+/* Alerts page specific styling */
+
+.alert {
+  text-align: center;
+  padding: 20px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Assistance page specific styling */
 
 section {
   margin-bottom: 30px;
@@ -180,3 +189,4 @@ section textarea {
   height: 100px;
   resize: vertical;
 }
+
