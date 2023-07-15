@@ -130,13 +130,40 @@ input[type="submit"]:hover {
 
 /* Alerts page specific styling */
 
+
+    /* Alert-specific styling */
+
 .alert {
-  text-align: center;
-  padding: 20px;
-  background-color: #F2F2F2;
-  border-radius: 4px;
-  margin-bottom: 20px;
-}
+      width: 800px;
+      margin: 0 auto;
+      padding: 60px;
+      background-color: #F2CB38;
+      border: 1px solid #E5B82E;
+      border-radius: 4px;
+      text-align: center;
+    }
+   
+.alert h2 {
+      color: #404040;
+  
+    }
+
+  .alert p {
+      color: #404040;
+    }
+
+ .alert button {
+      background-color: #38BDF2;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+  .alert button:hover {
+      background-color: #88D4F2;
+    }
 
 /* Assistance page specific styling */
 
