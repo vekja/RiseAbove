@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&display=swap');
 
 * {
 box-sizing: border-box;
@@ -41,12 +41,12 @@ padding: 15px;
 }
 
 a {
-color: #EBE8EC;
+color: #88D4F2;
 margin: 6px;
 text-decoration: none;
 }
 a:hover {
-color: #7720AF;
+color: #CEE1F2;
 }
 
 main {
@@ -98,16 +98,33 @@ padding: 0.5rem;
 text-transform: uppercase;
 }
 
+.container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
 
-/*<h1>Contact Us</h1>
-<form class="cf">
-  <div class="half left cf">
-    <input type="text" id="input-name" placeholder="Name">
-    <input type="email" id="input-email" placeholder="Address">
-    <input type="text" id="input-subject" placeholder="Email address">
-    <input type="text" id="input-subject" placeholder="Phone"
-  </div>
-  </div>  
-  <input type="submit" value="Submit" id="input-submit">
-</form>/*
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #38BDF2;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: 145952;
+    }
 
